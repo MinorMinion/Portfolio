@@ -4,9 +4,8 @@ import Profile from "./components/profile";
 import "./App.css";
 
 function App() {
-
   return (
-    < >
+    <>
       <div>
         <div>
           <p>here is the Header section</p>
@@ -19,12 +18,18 @@ function App() {
         i have installed Vite, imbeded Tailwind css, and connected to Git. All
         done till now and now my site is ready to start.
       </p>
-      <br /><hr /><br />
+      <br />
+      <hr />
+      <br />
       <UserContextProvider>
         <Login />
-        <br /><hr /><br />
+        <br />
+        <hr />
+        <br />
         <Profile />
-        <br /><hr /><br />
+        <br />
+        <hr />
+        <br />
       </UserContextProvider>
     </>
   );
